@@ -11,5 +11,55 @@
 		手机：13820190218</p>
 		邮箱：张大军@163.com</p>
 		经验：2015-2020春节，经常参加10亿元的大项目。
+<p>
+	这是分割线。
+<hr>
+ html 
+head
+ 1. meta
+meta标签描述了一些基本的元数据。
+
+<meta> 标签提供了元数据.元数据也不显示在页面上，但会被浏览器解析。
+META 元素通常用于指定网页的描述，关键词，文件的最后修改时间，作者，和其他元数据。元数据可以使用于浏览器（如何显示内容或重新加载页面），搜索引擎（关键词），或其他Web服务。
+<meta> 一般放置于 <head> 区域
+  字符集 /描述网页内容/作者/  关键词等
+   常用字符集... <mtea charset="utf-8"> 其他的还有GBK。。
+     <meta name="description" content="百度前端学院学习笔记"> 描述网页内容
+	<meta name="author" content=“sooxoos"> 作者
+	<meta name="keywords" content="前端学习，html,css,javascript”> 关键字，提供给搜索引擎
+     每30秒钟刷新当前页面:
+    <meta http-equiv="refresh" content="30">
+
+2.title   网页标题, 定义了不同文档的标题。是必须的标签
+	定义了浏览器工具栏的标题
+	当网页添加到收藏夹时，显示在收藏夹中的标题
+	显示在搜索引擎结果页面的标题
+  例子：还可以在标题前部显示图标，加入收藏夹时可以明显的区别。如知乎的：使用了多种尺寸的图标
+<link data-react-helmet="true" rel="apple-touch-icon" href="https://static.zhihu.com/heifetz/assets/apple-touch-icon-152.67c7b278.png" sizes="152x152"/><link data-react-helmet="true" rel="apple-touch-icon" href="https://static.zhihu.com/heifetz/assets/apple-touch-icon-120.b3e6278d.png" sizes="120x120"/><link data-react-helmet="true" rel="apple-touch-icon" href="https://static.zhihu.com/heifetz/assets/apple-touch-icon-76.7a750095.png" sizes="76x76"/><link data-react-helmet="true" rel="apple-touch-icon" href="https://static.zhihu.com/heifetz/assets/apple-touch-icon-60.a4a761d4.png" sizes="60x60"/><link rel="shortcut icon" type="image/x-icon" href="https://static.zhihu.com/static/favicon.ico"/><link rel="search" type="application/opensearchdescription+xml" href="https://static.zhihu.com/static/search.xml" title="知乎"/>
+
+
+3.base  使用 <base> 定义页面中所有链接默认的链接目标地址。
+<base href="//www.runoob.com/images/" target="_blank"> 
+target="_blank"  默认在在新窗口打开网页
+
+4、link
+<link> 标签定义了文档与外部资源之间的关系。
+<link> 标签通常用于链接到样式表:
+<head>
+<link rel="stylesheet" type="text/css" href="mystyle.css">
+</head>
+5、
+<script>标签用于加载脚本文件，如： JavaScript。详细在学习javascript时会再说。
+
+
+
+body
+
+
+
+图像： 插入图像： <img src="url"  alt="图像说明">
+alt = 在浏览器无法载入图像时，替换文本属性告诉读者她们失去的信息。
+例子：
+<img src="https://www.runoob.com/images/pulpit.jpg"  alt="图像说明">
 	</body>
 </html>
